@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'NationalPark-SemiBold';
+  src: local('NationalPark-Semibold'), url(../../assets/fonts/NationalPark-SemiBold.woff) format('woff');
+}  
+
+@font-face {
+  font-family: 'NationalPark-Extrabold';
+  src: local('NationalPark-Extrabold'), url(../../assets/fonts/NationalPark-ExtraBold.woff) format('woff');
+}  
+ 
+
+.right {
+  background-color: red;
+}
+
+.navbar{
+  background: linear-gradient(to right, #FFC106, #eecc69);
+}
+.nav-custom {
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+
+#nav-brand-font {
+  font-family: 'NationalPark-Extrabold';
+  font-size: 35px;
+  text-transform: none;
+}
+
+.nav-font {
+  font-family: 'NationalPark-Semibold';
+  box-shadow: 0px 8px 10px gray;
+  text-transform: uppercase; 
+}
+
+.park {
+  color: #3c4729;
+}
+.picker{
+  color: #6f4930;
+}
+
+

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'NationalPark-SemiBold';
+    src: local('NationalPark-Semibold'), url(./assets/fonts/NationalPark-SemiBold.woff) format('woff');
+  }  
+  
+  @font-face {
+    font-family: 'NationalPark-Extrabold';
+    src: local('NationalPark-Extrabold'), url(./assets/fonts/NationalPark-ExtraBold.woff) format('woff');
+  }  
+
+.search-box {
+    width: 75%;
+    box-shadow: 0 0 5px 0;
+    border-radius: 15px;
+}
+
+.border {
+    border: 4px solid #3C4729;
+}
+
+h2 {
+    font-family: 'NationalPark-SemiBold';
+}
